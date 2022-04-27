@@ -1,0 +1,22 @@
+.rainbow-text {
+  background: black;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 112, 112),
+    rgb(255, 208, 122),
+    rgb(255, 255, 165),
+    rgb(112, 255, 112),
+    rgb(142, 178, 255),
+    rgb(199, 121, 255),
+    rgb(255, 183, 225)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: move 100s linear infinite;
+}
+
+@keyframes move {
+  to {
+    background-position: 4500vh;
+  }
+}

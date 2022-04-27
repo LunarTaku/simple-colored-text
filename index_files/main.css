@@ -1,0 +1,44 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+  html {
+    height: 100%;
+  }
+  #box {
+    width: 100%;
+    min-height: 100%;
+    margin: auto;
+  }
+  #title {
+    color:  white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Open Sans';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  a {
+    color: lightskyblue;
+  }
+  
+  /* 
+  ==> Footer code, if you want it uncomment it! <==
+  
+  footer {
+    color:white;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 10px;
+  }
+  */
+  

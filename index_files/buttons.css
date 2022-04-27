@@ -1,0 +1,179 @@
+.button-green {
+    color: white;
+    border-style: dashed;
+    border: 2px dashed white;
+    background-color: transparent;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 19px;
+    padding-right: 19px;
+    font-family: 'Open Sans';  
+    font-weight: bold;
+    transition: 0.40s color, 0.40s border-color;
+}
+
+.button-green:hover {
+    color:lightgreen;
+    border-color: lightgreen;
+    cursor: pointer;
+}
+
+.button-red {
+    color: white;
+    border-style: dashed;
+    border: 2px dashed white;
+    background-color: transparent;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 19px;
+    padding-right: 19px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    transition: 0.40s color, 0.40s border-color;
+}
+
+.button-red:hover {
+    color: rgb(255, 104, 104);
+    border-color: rgb(255, 104, 104);
+    cursor: pointer;
+}
+
+.button-blue {
+    color: white;
+    border-style: dashed;
+    border: 2px dashed white;
+    background-color: transparent;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 19px;
+    padding-right: 19px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    transition: 0.40s color, 0.40s border-color;
+}
+
+.button-blue:hover {
+    color: lightskyblue;
+    border-color: lightskyblue;
+    cursor: pointer;
+}
+
+/*Solid Buttons*/
+
+.button-green-solid {
+    color: white;
+    border-style: solid;
+    border: 2px solid white;
+    background-color: transparent;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 19px;
+    padding-right: 19px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    transition: 0.40s color, 0.40s border-color;
+}
+
+.button-green-solid:hover {
+    color:lightgreen;
+    border-color: lightgreen;
+    cursor: pointer;
+}
+
+.button-red-solid {
+    color: white;
+    border-style: solid;
+    border: 2px solid white;
+    background-color: transparent;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 19px;
+    padding-right: 19px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    transition: 0.40s color, 0.40s border-color;
+}
+
+.button-red-solid:hover {
+    color: rgb(255, 104, 104);
+    border-color: rgb(255, 104, 104);
+    cursor: pointer;
+}
+
+.button-blue-solid {
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 19px;
+    padding-right: 19px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    transition: 0.40s color, 0.40s border-color;
+}
+
+.button-blue-solid:hover {
+    color: lightskyblue;
+    border-color: lightskyblue;
+    cursor: pointer;
+}
+
+/*Filled Buttons*/
+
+.button-filled-green {
+    background-color: white;
+    color: black;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    border: 2px solid black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 19px;
+    padding-right: 19px;
+    transition: 0.40s color, 0.40s border-color, 0.40s background-color;
+}
+
+.button-filled-green:hover {
+    background-color: black;
+    color: white;
+    border-color: lightgreen;
+}
+
+.button-filled-red {
+    background-color: white;
+    color: black;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    border: 2px solid black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 19px;
+    padding-right: 19px;
+    transition: 0.40s color, 0.40s border-color, 0.40s background-color;
+}
+
+.button-filled-red:hover {
+    background-color: black;
+    color: white;
+    border-color: rgb(255, 104, 104);
+}
+
+.button-filled-blue {
+    background-color: white;
+    color: black;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    border: 2px solid black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 19px;
+    padding-right: 19px;
+    transition: 0.40s color, 0.40s border-color, 0.40s background-color;
+}
+
+.button-filled-blue:hover {
+    background-color: black;
+    color: white;
+    border-color: lightskyblue;
+}
